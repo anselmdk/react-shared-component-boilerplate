@@ -4,7 +4,7 @@
   "description": "React Shared Component Boilerplate",
   "main": "build/index.js",
   "scripts": {
-    "docz:dev": "docz dev",
+    "start": "docz dev",
     "build": "babel src -d build",
     "prepare": "npm run build"
   },
