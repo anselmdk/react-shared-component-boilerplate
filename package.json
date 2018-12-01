@@ -1,0 +1,23 @@
+{
+  "name": "react-shared-component-boilerplate",
+  "version": "1.0.0",
+  "description": "React Shared Component Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "docz:dev": "docz dev",
+    "build": "babel src -d build",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Anselm Christophersen",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "docz": "^0.12.13"
+  }
+}
