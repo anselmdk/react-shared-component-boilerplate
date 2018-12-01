@@ -2,7 +2,7 @@
   "name": "react-shared-component-boilerplate",
   "version": "1.0.0",
   "description": "React Shared Component Boilerplate",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "docz:dev": "docz dev",
     "build": "babel src -d build",
